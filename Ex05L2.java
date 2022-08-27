@@ -12,7 +12,8 @@ public class Ex05L2 {
         if (valor2!=0) {
         System.out.println("O resultado é " + divisao);}
         while (valor2==0){
-        System.out.println("ERRO")}
+        System.out.println("ERRO");
+    }
     
             
         
