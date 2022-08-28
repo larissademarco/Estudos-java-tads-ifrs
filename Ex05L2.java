@@ -9,13 +9,12 @@ public class Ex05L2 {
         float valor1 = in.nextFloat();
         float valor2 = in.nextFloat();
         float divisao = (valor1 / valor2);
-        if (valor2!=0) {
-        System.out.println("O resultado é " + divisao);}
-        while (valor2==0){
-        System.out.println("ERRO");
-    }
-    
-            
-        
+        if (valor2 != 0) {
+            System.out.println("O resultado das divisões é " + divisao);
         }
+        if (valor2 == 0) {
+            System.out.println("ERRO");
+        }
+
     }
+}
